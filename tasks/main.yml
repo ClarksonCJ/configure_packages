@@ -1,0 +1,8 @@
+---
+# tasks file for configure_packages
+- name: Install packages from list
+  package:
+    name: "{{ item }}"
+    state: latest
+  with_items: "{{ packages | default(default_packages) }}"
+  become: yes

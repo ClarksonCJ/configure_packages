@@ -1,0 +1,5 @@
+---
+# defaults file for configure_packages
+default_packages:
+  - git
+  - curl

@@ -1,0 +1,9 @@
+galaxy_info:
+  author:  Chris Clarkson
+  description: Role to manage prerequisite packages for Jenkins
+  company: CJC software Solutions.co.uk
+  license: license (GPLv2, CC-BY, etc)
+
+  min_ansible_version: 1.2
+  galaxy_tags: []
+dependencies: []
